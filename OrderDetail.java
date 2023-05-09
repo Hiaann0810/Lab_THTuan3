@@ -12,7 +12,7 @@ public class OrderDetail {
     private int quatity;
     private Product product;
 
-    public OrderDetail(Product product, int quantity) {
+    public OrderDetail(Product product, int quatity) {
         this.product = product;
         this.quatity = quatity;
     }
@@ -25,7 +25,7 @@ public class OrderDetail {
         return this.product;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(int quatity) {
         this.quatity = quatity;
     }
 
